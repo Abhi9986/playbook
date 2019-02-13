@@ -14,8 +14,8 @@ believe the team can justify the need to be different.
 
 ### Install and Test
 
-1. Download or clone repo `git clone git@bitbucket.org:ciaranhale/qantas-dev-playbook.git`
-2. Enter the folder: `cd qantas-playbook/`
+1. Download or clone repo `git clone https://github.com/qantasairways/playbook.git`
+2. Enter the folder: `cd playbook/`
 3. If you don't have bundler installed: `gem install bundler`
 3. Install Ruby gems: `bundle install`
 4. Start Jekyll server: `bundle exec jekyll serve --watch`
@@ -27,5 +27,5 @@ Access via: [http://localhost:4000/)
 
 
 1. Edit the markdown files under the Docs folder with your changes. 
-2. Raise a pull request and add at least 1 approver
+2. Raise a pull request and add at least 2 approvers
 3. Wait for your change to be merged
