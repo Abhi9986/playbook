@@ -516,6 +516,9 @@ hr {
       padding-left: 2rem;
       margin-left: calc((100% - 1032px) / 2 + 232px); } }
 
+.js-main-content:focus {
+  outline: none; }
+
 .page-header {
   background-color: #27262b; }
   @media (min-width: 46.25rem) {
@@ -586,32 +589,32 @@ body {
 .page-content ol {
   list-style-type: none;
   counter-reset: step-counter; }
-  .page-content ol li {
+  .page-content ol > li {
     position: relative; }
-    .page-content ol li::before {
+    .page-content ol > li::before {
       position: absolute;
       top: 0.2em;
-      left: -1.5em;
+      left: -1.6em;
       color: #959396;
       content: counter(step-counter);
       counter-increment: step-counter;
       font-size: 12px !important; }
       @media (min-width: 31.25rem) {
-        .page-content ol li::before {
+        .page-content ol > li::before {
           font-size: 14px !important; } }
       @media (min-width: 31.25rem) {
-        .page-content ol li::before {
+        .page-content ol > li::before {
           top: 0.11em; } }
-    .page-content ol li ol {
+    .page-content ol > li ol {
       counter-reset: sub-counter; }
-      .page-content ol li ol li::before {
+      .page-content ol > li ol li::before {
         content: counter(sub-counter,lower-alpha);
         counter-increment: sub-counter; }
 .page-content ul {
   list-style: none; }
-  .page-content ul li::before {
+  .page-content ul > li::before {
     position: absolute;
-    margin-left: -1.5em;
+    margin-left: -1.4em;
     color: #959396;
     content: "•"; }
 .page-content .task-list {
@@ -1145,6 +1148,7 @@ code {
 pre.highlight {
   padding: 0.75rem;
   margin-bottom: 0;
+  -webkit-overflow-scrolling: touch;
   background-color: #302d36; }
   pre.highlight code {
     padding: 0;
@@ -1364,7 +1368,7 @@ pre.highlight {
 .code-example {
   padding: 0.75rem;
   margin-bottom: 0.75rem;
-  overflow: scroll;
+  overflow: auto;
   border: 1px solid #44434d;
   border-radius: 4px; }
   .code-example + .highlighter-rouge,
@@ -1453,7 +1457,7 @@ pre.highlight {
   color: #e7af06 !important; }
 
 .text-red-000 {
-  color: #f77e7e !important; }
+  color: #e40000 !important; }
 
 .text-red-100 {
   color: #f96e65 !important; }
@@ -1540,7 +1544,7 @@ pre.highlight {
   background-color: #e7af06 !important; }
 
 .bg-red-000 {
-  background-color: #f77e7e !important; }
+  background-color: #e40000 !important; }
 
 .bg-red-100 {
   background-color: #f96e65 !important; }

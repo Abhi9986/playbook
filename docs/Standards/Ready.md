@@ -19,18 +19,18 @@ A task is not ready for development unless it has satisfied the
 following:
 
 -   Acceptance Criteria clearly defined and describes all features of
-    > the story
+ the story
 
 -   Product Owner has signed off on the User Story and Acceptance
-    > Criteria
+ Criteria
 
 -   Acceptance test cases have been provided
 
 -   UX Designs, if applicable, have been completed and attached to the
-    > ticket
+ ticket
 
 -   No external or technical dependencies prevent the story from being
-    > completed
+ completed
 
 -   The backlog item is estimated/sized by the delivery team and can be
-    > completed in a single sprint
+ completed in a single sprint

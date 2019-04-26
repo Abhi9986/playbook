@@ -15,7 +15,7 @@ although repository ownership can mandate approver authority.
 The aim of pull requests are to:
 
 -   Catch major defects before they are introduced into the existing
-    > code base
+ code base
 
 -   Discuss architectural improvements and provide guidance for changes
 
@@ -46,7 +46,7 @@ should be considered:
 -   Every comment should be addressed, never ignored
 
 -   Every peer review is an opportunity of collective learning and
-    > collaboration
+ collaboration
 
 ### Pull Request Preparation
 
@@ -55,12 +55,12 @@ Pull Requests should meet the following criteria:
 -   Should have description of changes
 
 -   Pull requests should be as small as possible with limited numbers of
-    > scope changes
+ scope changes
 
 -   Build must be green and passed tests
 
 -   Reviewers should mark the pull request as "need work" even if they
-    > think the proposed changes are minor
+ think the proposed changes are minor
 
 -   Should have description of changes in pull request
 
@@ -77,7 +77,7 @@ Pull Requests should meet the following criteria:
 The guidelines for Pull Request Reviewers are:
 
 -   Mandatory 2 approvers (should not include members if pair
-    > programmed)
+ programmed)
 
 -   Ideally 1 reviewer outside your team.
 

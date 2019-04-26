@@ -24,7 +24,7 @@ criteria:
 -   The story has been verified and approved by QA
 
 -   Secure coding standards, practices and policies for the story have
-    > been met
+ been met
 
 -   The feature/code has been code reviewed and refactored (if required)
 

@@ -23,8 +23,7 @@ team.
 
 1.  Are you proud of every pull request?
 
-2.  Do you have cross-functional teams that scope, build, test and
-    > deploy together?
+2.  Do you have cross-functional teams that scope, build, test and deploy together?
 
 3.  Do you enforce documented coding standards?
 
@@ -38,15 +37,13 @@ team.
 
 8.  Do you allocate time and resources to technical debt?
 
-9.  Do you actively monitor and create alerts for your applications in
-    > production?
+9.  Do you actively monitor and create alerts for your applications in production?
 
 10. Is security, customer privacy and safety your primary concern?
 
 11. Do you invest time and resources in training?
 
-12. Do you actively contribute to the software engineering culture and
-    > evangelise our efforts?
+12. Do you actively contribute to the software engineering culture and evangelise our efforts?
 
 Credit:
 [https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code/](https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code/)
