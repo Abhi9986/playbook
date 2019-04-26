@@ -31,17 +31,17 @@ be written into your application from which to build monitoring and
 alerting. Logging events should be based upon a traffic light principle.
 
 -   Red (fatal & error): fatal or unexpected values in the application.
-    > Example: the application encounters an error which is preventing a
-    > particular request from completing
+ Example: the application encounters an error which is preventing a
+ particular request from completing
 
 -   Amber (warn): exceptions or unusual behaviour that may forebode
-    > future failure. Example: object detects inconsistency within an
-    > external data feed and it performs a corrective action to
-    > compensate for it.
+ future failure. Example: object detects inconsistency within an
+ external data feed and it performs a corrective action to
+ compensate for it.
 
 -   Green (info & trace): log key events in the system or user journey
-    > to demonstrate application health. Example: registration, booking
-    > and confirmation in a booking flow
+ to demonstrate application health. Example: registration, booking
+ and confirmation in a booking flow
 
 ### Logging Standard
 
@@ -67,28 +67,28 @@ that is easily searchable in Splunk.
 #### Logging Levels
 
 -   **FATAL:** Events that indicate problems requiring immediate
-    > attention. There may be different criticality of errors. The
-    > assumption at this point is that the alarming built in to Splunk
-    > will be configured to reflect.
+ attention. There may be different criticality of errors. The
+ assumption at this point is that the alarming built in to Splunk
+ will be configured to reflect.
 
 -   **ERROR:** Unhandled events that provide forewarning of potential
-    > problems. This level should be used to log unhandled exceptions
-    > which are caught by a catch block at the boundary of the
-    > application which catches all occurring exceptions that have not
-    > been handled by other exception handlers.
+ problems. This level should be used to log unhandled exceptions
+ which are caught by a catch block at the boundary of the
+ application which catches all occurring exceptions that have not
+ been handled by other exception handlers.
 
 -   **WARN:** Handled events that provide forewarning of potential
-    > problems; although not a response to an actual error, a warning
-    > indicates that a component or application is not in an ideal state
-    > and that some further actions could result in a critical error.
-    > This level should be used for handled exceptions. For example the
-    > application requires a configuration setting but has a default in
-    > case the setting is missing.
+ problems; although not a response to an actual error, a warning
+ indicates that a component or application is not in an ideal state
+ and that some further actions could result in a critical error.
+ This level should be used for handled exceptions. For example the
+ application requires a configuration setting but has a default in
+ case the setting is missing.
 
 -   **INFO:** All events which are required for audit purposes
 
 -   **DEBUG:** Events that perform \"normal operations\", e.g. mail
-    > sent, user updated profile etc.
+ sent, user updated profile etc.
 
 -   **TRACE:** All other events:
 

@@ -12,11 +12,11 @@ Useful bug reports are ones that get bugs fixed. A useful bug report
 is\...
 
 1.  Reproducible - If an Engineer can\'t see it or conclusively prove
-    > that it exists, the more likely it will be returned \"It works for
-    > me!\"
+that it exists, the more likely it will be returned \"It works for
+me!\"
 
 2.  Specific - The quicker the Engineer can trace down the issue to a
-    > specific problem, the more likely it\'ll be fixed expediently.
+specific problem, the more likely it\'ll be fixed expediently.
 
 The goals of a bug report are to:
 
@@ -82,16 +82,16 @@ description for this, e.g.:
 scale could be:
 
 -   Level 1: A typo (unlikely to have customer service impacts),
-    > duplicate notifications
+duplicate notifications
 
 -   Level 2: Incorrect completion rate (some people might write in about
-    > it), discrepancy in task count
+ it), discrepancy in task count
 
 -   Level 3: Something that is stopping people from messaging, making an
-    > offer, or assigning
+ offer, or assigning
 
 -   Level 4: Payments incorrectly processed, e.g. the bug from the other
-    > week
+ week
 
 -   Level 5: Whole site down/Armageddon
 

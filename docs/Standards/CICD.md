@@ -28,15 +28,15 @@ production.
 
 At Qantas:
 
-1.  [Go](https://www.gocd.org/) is used as the CI Pipeline
+1.  [Atlassian Bamboo](https://www.atlassian.com/software/bamboo) is used as the CI Pipeline
 
 2.  All builds must use the CI/CD Pipeline
 
 3.  Access to the Pipeline configuration is managed through trusted AD
-    > user groups.
+ user groups.
 
 4.  All builds must be commended by a pull request. No pull request no
-    > build
+ build
 
 5.  Must have a build break practice.
 

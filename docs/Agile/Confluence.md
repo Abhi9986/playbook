@@ -29,19 +29,19 @@ minimum requirements:
 For more complex stories:
 
 -   Scenarios: good and bad scenarios of what the user/system is
-    > supposed to perform
+ supposed to perform
 
 A good user story should be:
 
 -   Business focused - A story should be written in terminology that the
-    > business understands; it must return business value.
+ business understands; it must return business value.
 
 -   Elevatory friendly - A story is a placeholder for a more detailed
-    > conversation, not a feature spec or requirements doc. You should
-    > be able to explain the story on a 30 second elevator ride.
+ conversation, not a feature spec or requirements doc. You should
+ be able to explain the story on a 30 second elevator ride.
 
 -   Testable - A story should be testable - if you can\'t test it you
-    > shouldn\'t build it
+ shouldn\'t build it
 
 **Note: A user story should take no more than 20 minutes to write. **
 
@@ -54,20 +54,20 @@ applicable. They should be high-level while still providing enough
 detail to be useful. They should include:
 
 -   **Functional Criteria:** Identify specific user tasks, functions or
-    > business processes that must be in place. A functional criterion
-    > might be "A user is able to access a list of available reports." A
-    > non-functional criterion might be "Edit buttons and Workflow
-    > buttons comply with the Site Button Design."
+ business processes that must be in place. A functional criterion
+ might be "A user is able to access a list of available reports." A
+ non-functional criterion might be "Edit buttons and Workflow
+ buttons comply with the Site Button Design."
 
 -   **Non-functional Criteria: **Identify specific non-functional
-    > conditions the implementation must meet, such as design elements.
-    > A non-functional criterion might be "Edit buttons and Workflow
-    > buttons comply with the Site Button Design."
+ conditions the implementation must meet, such as design elements.
+ A non-functional criterion might be "Edit buttons and Workflow
+ buttons comply with the Site Button Design."
 
 -   **Performance Criteria: **If specific performance is critical to the
-    > acceptance of a user story, it should be included. This is often
-    > measured as a response time, and should be spelled out as a
-    > threshold
+ acceptance of a user story, it should be included. This is often
+ measured as a response time, and should be spelled out as a
+ threshold
 
 Acceptance Criteria should state intent, but not a solution (e.g., "A
 manager can approve or disapprove an audit form" rather than "A manager
@@ -95,13 +95,13 @@ The essential idea is to break down writing a scenario (or test) into
 three sections:
 
 -   The **Given** part describes the state of the world before you begin
-    > the behaviour you\'re specifying in this scenario. You can think
-    > of it as the pre-conditions to the test.
+ the behaviour you\'re specifying in this scenario. You can think
+ of it as the pre-conditions to the test.
 
 -   The **When** section is that behaviour that you\'re specifying.
 
 -   Finally the **Then** section describes the changes you expect due to
-    > the specified behaviour.
+ the specified behaviour.
 
 **Scenario 1: Title**
 

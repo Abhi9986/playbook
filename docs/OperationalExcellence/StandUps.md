@@ -14,14 +14,14 @@ in distributed environments. Key to successful stand-ups include:
 -   Actually standing
 
 -   Meetings should start promptly. If key stakeholders are missing,
-    > start
+ start
 
 -   Ensure key themes are covered including what you need yesterday,
-    > plans for today and any blockers identified
+ plans for today and any blockers identified
 
 -   Any discussion lasting more than a minute should be parked
 
 -   Ensure attendees are actively listening and not waiting their turn
-    > to speak
+ to speak
 
 -   Discuss stand-up performance in your Retros
